@@ -44,25 +44,26 @@ const Sidebar = ({ sidebar, category, setCategory }) => {
                 </div>
                 <hr />
             </div>
-            <div className="subscribed-list">
+                    <div className="subscribed-list">
                 <h3>Subscribed</h3>
                 <div className="side-link">
-                    <img src={jack} alt="PewDiePie" /><p>PewDiePie</p>
+                    <img src={jack} alt="PewDiePie" /><p>Canal</p>
                 </div>
                 <div className="side-link">
-                    <img src={simon} alt="PewDiePie" /><p>PewDiePie</p>
+                    <img src={simon} alt="PewDiePie" /><p>Canal</p>
                 </div>
                 <div className="side-link">
-                    <img src={tom} alt="PewDiePie" /><p>PewDiePie</p>
+                    <img src={tom} alt="PewDiePie" /><p>Canal</p>
                 </div>
                 <div className="side-link">
-                    <img src={megan} alt="PewDiePie" /><p>PewDiePie</p>
+                    <img src={megan} alt="PewDiePie" /><p>Canal</p>
                 </div>
                 <div className="side-link">
-                    <img src={cameron} alt="PewDiePie" /><p>PewDiePie</p>
+                    <img src={cameron} alt="PewDiePie" /><p>Canals</p>
                 </div>
             </div>
         </div>
+
     );
 }
 
